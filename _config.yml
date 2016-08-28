@@ -1,1 +1,18 @@
-baseurl : ''
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+title:               Hj's Blog
+tagline:             'A Jekyll theme'
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Mark Otto
+
+# Custom vars
+version:             1.0.0
