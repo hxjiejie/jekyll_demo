@@ -5,7 +5,7 @@ title: Charles install Document
 
 1. 下载
 
-    https:\/\/www.charlesproxy.com\/latest-release\/download.do（选择 Linux \(tar.gz, 12 MB\) ）
+    https://www.charlesproxy.com/latest-release/download.do（选择 Linux (tar.gz, 12 MB) ）
 
 2. 到下载目录，解压：
 
@@ -13,7 +13,7 @@ title: Charles install Document
 
 3. 进入目录：
 
-   cd charles\/bin\/
+   cd charles/bin/
 
 4. 安装java-jre
 
@@ -23,6 +23,6 @@ title: Charles install Document
 
 5. 运行 charles
 
-   sudo .\/charles
+   sudo ./charles
 
 
