@@ -3,8 +3,6 @@ layout: post
 title: Charles install Document
 ---
 
-# Charles install Document
-
 1. 下载
 
     https:\/\/www.charlesproxy.com\/latest-release\/download.do（选择 Linux \(tar.gz, 12 MB\) ）
