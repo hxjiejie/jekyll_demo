@@ -1,3 +1,8 @@
+---
+layout: post
+title: Charles install Document
+---
+
 # Charles install Document
 
 1. 下载
