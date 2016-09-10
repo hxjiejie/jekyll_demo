@@ -1,13 +1,10 @@
 ---
 layout: page
-title: About
+title: Demo
 ---
 
-{% for category in site.categories %}
-<h2>{{ category | first }}</h2>
 <ul class="arc-list">
-    {% for post in category.last %}
+    {% for post in demo.last %}
         <li>{{ post.date | date:"%d/%m/%Y"}}<a href="{{ post.url }}"> {{ post.title }}</a></li>
     {% endfor %}
 </ul>
-{% endfor %}
