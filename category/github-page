@@ -1,0 +1,13 @@
+---
+title: Github-page
+layout: category
+---
+
+<ul>
+    {% for post in site.categories.github-page %}
+    <li>
+    <span><small>{{ post.date | date_to_string }}</small></span>
+    <a href='{{ site.baseurl }}{{ post.url }}'> {{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
