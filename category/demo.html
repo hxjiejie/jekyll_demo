@@ -2,20 +2,11 @@
 title: demo
 layout: page
 ---
+
 <ul>
-    <li>
     {% for post in site.categories.demo %}
-    <span>{{ post.date }} {{ post.title }}</span>
-    {% endfor %}
-    </li>
-</ul>
-
-
-<ul>
-    {% for category in site.categories %}
     <li>
-    <a href="/category/{{ category | first }}" title="view all posts">{{ category | first }} </a>
-    <span>({{ category | last | size =}})</span>
+    <a href='javascript:;'><small>{{ post.date | date_to_string }}</small> {{ post.title }}</span>
     </li>
     {% endfor %}
 </ul>
