@@ -7,7 +7,7 @@ title: Demo
 <ul>
     {% for category in site.categories %}
     <li>
-    <a href="/categories/{{ category | first }}/" title="view all posts">{{ category | first }} </a>
+    <a href="/category/{{ category }}" title="view all posts">{{ category | first }} </a>
     <span>({{ category | last | size =}})</span>
     </li>
     {% endfor %}
