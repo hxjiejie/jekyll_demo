@@ -5,7 +5,9 @@ layout: page
 
 <ul>
     {% for category in site.categories %}
-    <li><a href="/category/{{ category | first }}/" title="view all posts">{{ category | first }} {{ category | last | size }}</a>
+    <li>
+    <a href="/category/{{ category | first }}/" title="view all posts">{{ category | first }} </a>
+    <span>({{ category | last | size }})</span>
     </li>
     {% endfor %}
 </ul>
