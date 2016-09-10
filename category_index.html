@@ -3,6 +3,9 @@ title: 文章分类
 layout: page
 ---
 
-{% for post in site.categories.[page.category] %}
-    {{ post.date }} {{ post.title }}
-{% endfor %}
+<ul>
+    {% for category in site.categories %}
+    <li><a href="/category/{{ category | first }}/" title="view all posts">{{ category | first }} {{ category | last | size }}</a>
+    </li>
+    {% endfor %}
+</ul>
